@@ -9,7 +9,7 @@ const Hero = ({ data }) => {
       {/* Left column for content */}
       <div className="flex-1 sm:pr-8">
         {/* Hero section label */}
-        <p className="uppercase tracking-wide font-semibold">{data.label}</p>
+
         {/* Big title */}
         <h1 className="title mt-2 sm:mt-0 mb-4 sm:mb-2">{data.title}</h1>
         {/* Description paragraph */}

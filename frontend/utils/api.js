@@ -126,7 +126,6 @@ export async function getPageData({ slug, locale, preview }) {
                     }
                     title
                     description
-                    label
                     picture {
                       ...FileParts
                     }

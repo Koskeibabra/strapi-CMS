@@ -3,26 +3,24 @@
   "info": {
     "name": "Hero",
     "displayName": "Hero",
-    "icon": "heading"
+    "icon": "heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "label": {
-      "type": "string"
-    },
     "description": {
       "type": "string"
     },
     "picture": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "smallTextWithLink": {
       "type": "richtext"
